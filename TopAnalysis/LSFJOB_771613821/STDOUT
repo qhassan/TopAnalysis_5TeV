@@ -1,108 +1,0 @@
-@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
-Working directory is </pool/lsf/qhassan/771613821> on <b6ab1c75d7.cern.ch>
-
-Name collision 'ansi' between
-	ansi|ansi/pc-term compatible with color
-and	ansi|ansi/pc-term compatible with color
-...now	ansi/pc-term compatible with color
-Cannot remove alias 'ansi/pc-term compatible with color'
-Name collision 'vt102' between
-	vt102|dec vt102
-and	vt102|dec vt102
-...now	dec vt102
-Cannot remove alias 'dec vt102'
-Name collision 'vt100' between
-	vt100|vt100-am|dec vt100 (w/advanced video)
-and	vt100|vt100-am|dec vt100 (w/advanced video)
-...now	vt100-am|dec vt100 (w/advanced video)
-...now	dec vt100 (w/advanced video)
-Cannot remove alias 'dec vt100 (w/advanced video)'
-Name collision 'vt220' between
-	vt220|vt200|dec vt220
-and	vt220|vt200|dec vt220
-...now	vt200|dec vt220
-...now	dec vt220
-Cannot remove alias 'dec vt220'
-Name collision 'vt52' between
-	vt52|dec vt52
-and	vt52|dec vt52
-...now	dec vt52
-Cannot remove alias 'dec vt52'
-Name collision 'vt100-nav' between
-	vt100-nav|vt100 without advanced video option
-and	vt100-nav|vt100 without advanced video option
-...now	vt100 without advanced video option
-Cannot remove alias 'vt100 without advanced video option'
-Name collision 'dumb' between
-	dumb|80-column dumb tty
-and	dumb|80-column dumb tty
-...now	80-column dumb tty
-Cannot remove alias '80-column dumb tty'
-Name collision 'linux' between
-	linux|linux console
-and	linux|linux console
-...now	linux console
-Cannot remove alias 'linux console'
-Will process root://eoscms//eos/cms//store/cmst3/group/hintt/LJets5TeV//MCWJetsToLNu_v2/MergedMiniEvents_10.root and save the results in /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_e/MCWJetsToLNu_v2_2.root
-Sample will be treated as MC=1
-Systematics will be run=1
-Corrections to be retrieved from era=/afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV
-Total normalization factor=4.19291e-12
-Read 3 b-tag efficiency expectations from /afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV/expTageff.root
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
-Analysing 140405 events isMC=1 trigger=HLT_HISinglePhoton40_Eta3p1ForPPRef_v1
- [0/140405] done [1000/140405] done [2000/140405] done [3000/140405] done [4000/140405] done [5000/140405] done [6000/140405] done [7000/140405] done [8000/140405] done [9000/140405] done [10000/140405] done [11000/140405] done [12000/140405] done [13000/140405] done [14000/140405] done [15000/140405] done [16000/140405] done [17000/140405] done [18000/140405] done [19000/140405] done [20000/140405] done [21000/140405] done [22000/140405] done [23000/140405] done [24000/140405] done [25000/140405] done [26000/140405] done [27000/140405] done [28000/140405] done [29000/140405] done [30000/140405] done [31000/140405] done [32000/140405] done [33000/140405] done [34000/140405] done [35000/140405] done [36000/140405] done [37000/140405] done [38000/140405] done [39000/140405] done [40000/140405] done [41000/140405] done [42000/140405] done [43000/140405] done [44000/140405] done [45000/140405] done [46000/140405] done [47000/140405] done [48000/140405] done [49000/140405] done [50000/140405] done [51000/140405] done [52000/140405] done [53000/140405] done [54000/140405] done [55000/140405] done [56000/140405] done [57000/140405] done [58000/140405] done [59000/140405] done [60000/140405] done [61000/140405] done [62000/140405] done [63000/140405] done [64000/140405] done [65000/140405] done [66000/140405] done [67000/140405] done [68000/140405] done [69000/140405] done [70000/140405] done [71000/140405] done [72000/140405] done [73000/140405] done [74000/140405] done [75000/140405] done [76000/140405] done [77000/140405] done [78000/140405] done [79000/140405] done [80000/140405] done [81000/140405] done [82000/140405] done [83000/140405] done [84000/140405] done [85000/140405] done [86000/140405] done [87000/140405] done [88000/140405] done [89000/140405] done [90000/140405] done [91000/140405] done [92000/140405] done [93000/140405] done [94000/140405] done [95000/140405] done [96000/140405] done [97000/140405] done [98000/140405] done [99000/140405] done [100000/140405] done [101000/140405] done [102000/140405] done [103000/140405] done [104000/140405] done [105000/140405] done [106000/140405] done [107000/140405] done [108000/140405] done [109000/140405] done [110000/140405] done [111000/140405] done [112000/140405] done [113000/140405] done [114000/140405] done [115000/140405] done [116000/140405] done [117000/140405] done [118000/140405] done [119000/140405] done [120000/140405] done [121000/140405] done [122000/140405] done [123000/140405] done [124000/140405] done [125000/140405] done [126000/140405] done [127000/140405] done [128000/140405] done [129000/140405] done [130000/140405] done [131000/140405] done [132000/140405] done [133000/140405] done [134000/140405] done [135000/140405] done [136000/140405] done [137000/140405] done [138000/140405] done [139000/140405] done [140000/140405] donelaunching 1 tasks in 0 parallel jobs
-Running  Run5TeVAnalysis::Run5TeVAnalysis  on  root://eoscms//eos/cms//store/cmst3/group/hintt/LJets5TeV//MCWJetsToLNu_v2/MergedMiniEvents_10.root
-Output file /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_e/MCWJetsToLNu_v2_2.root
-Selection ch= 11  charge= 0  flavSplit= 0  systs= True
-Normalization applied from tag= MCWJetsToLNu_v2
-Corrections will be retrieved for era= /afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV
-analysisWrapper --era /afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV --normTag MCWJetsToLNu_v2 --in root://eoscms//eos/cms//store/cmst3/group/hintt/LJets5TeV//MCWJetsToLNu_v2/MergedMiniEvents_10.root --out /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_e/MCWJetsToLNu_v2_2.root --method Run5TeVAnalysis::Run5TeVAnalysis --charge 0 --channel 11 --flav 0  --runSysts
-
-Job finished at پير اگست 29 12:56:44 CEST 2016 on node 
- under linux version Scientific Linux CERN SLC release 6.8 (Carbon)
-
-CERN statistics: This process used approximately : 0:01:43 KSI2K hours (103 KSI2K seconds)
-                 This process corresponds to     : 0:06:43 HS06  hours (403 HS06  seconds)
