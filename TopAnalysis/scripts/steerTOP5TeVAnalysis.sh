@@ -23,6 +23,7 @@ outdir=/afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJ
 wwwdir=~/www/LJets-5TeV
 lumi=27.9
 data=/store/cmst3/group/hintt/mverweij/PP5TeV/data/SingleMuHighPt/crab_FilteredSingleMuHighPt_v3/160425_163333/merge/HiForest_0.root
+el_data=/store/cmst3/group/hintt/psilva/PP5TeV/data/HighPtLowerPhotons/crab_HighPtLowerPhotons/160823_154451/0000
 
 RED='\e[31m'
 NC='\e[0m'
@@ -40,17 +41,19 @@ case $WHAT in
 	python scripts/runLocalAnalysis.py -i ${sourcedir} -q ${queue} -o ${outdir}/analysis_munoniso                          --era era5TeV -m Run5TeVAnalysis::Run5TeVAnalysis       --ch 1300 --only MC;
 	python scripts/runLocalAnalysis.py -i ${data}      -q ${queue} -o ${outdir}/analysis_munoniso/FilteredSingleMuHighPt_v3.root --era era5TeV -m Run5TeVAnalysis::Run5TeVAnalysis --ch 1300;
 	python scripts/runLocalAnalysis.py -i ${sourcedir} -q ${queue} -o ${outdir}/analysis_e                                --era era5TeV -m Run5TeVAnalysis::Run5TeVAnalysis       --ch 11 --runSysts --only MC;
-	python scripts/runLocalAnalysis.py -i ${data}      -q ${queue} -o ${outdir}/analysis_e/FilteredSingleMuHighPt_v3.root --era era5TeV -m Run5TeVAnalysis::Run5TeVAnalysis       --ch 11;
+	python scripts/runLocalAnalysis.py -i ${el_data}      -q ${queue} -o ${outdir}/analysis_e/FilteredSingleEleHighPt_v3.root --era era5TeV -m Run5TeVAnalysis::Run5TeVAnalysis       --ch 11;
 	python scripts/runLocalAnalysis.py -i ${sourcedir} -q ${queue} -o ${outdir}/analysis_enoniso                          --era era5TeV -m Run5TeVAnalysis::Run5TeVAnalysis       --ch 1100 --only MC;
-	python scripts/runLocalAnalysis.py -i ${data}      -q ${queue} -o ${outdir}/analysis_enoniso/FilteredSingleMuHighPt_v3.root --era era5TeV -m Run5TeVAnalysis::Run5TeVAnalysis --ch 1100;
+	python scripts/runLocalAnalysis.py -i ${el_data}      -q ${queue} -o ${outdir}/analysis_enoniso/FilteredSingleEleHighPt_v3.root --era era5TeV -m Run5TeVAnalysis::Run5TeVAnalysis --ch 1100;
 	;;
     MERGE )
 	echo -e "[ ${RED} Merging job output ${NC} ]"
-	a=(mu munoniso)
+	a=(mu munoniso e enoniso)
+  a=(enoniso)
 	for i in ${a[@]}; do
+    echo -e "[ ${RED} Merging ${i} ${NC} ]";
 	    ./scripts/mergeOutputs.py ${outdir}/analysis_${i};
-	done
-	;;
+    done
+    ;;
     BKG )
 	echo -e "[ ${RED} Running QCD estimation from non-isolated side-band ${NC} ]"
 	a=(mu munoniso)
@@ -65,7 +68,8 @@ case $WHAT in
 	;;
     PLOT )
 	echo -e "[ ${RED} Running plotter ${NC} ]"
-	a=(mu munoniso)
+	a=(mu munoniso e enoniso)
+  a=(enoniso)
 	for i in ${a[@]}; do
 	    #python scripts/plotter.py -i ${outdir}/analysis_${i}  -j data/era5TeV/Wsamples.json     -l ${lumi} --saveLog --noStack;	
 	    #mkdir ~/${outdir}/analysis_${i}/wplots;

@@ -1,0 +1,108 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/qhassan/771613806> on <b64772a95f.cern.ch>
+
+Name collision 'ansi' between
+	ansi|ansi/pc-term compatible with color
+and	ansi|ansi/pc-term compatible with color
+...now	ansi/pc-term compatible with color
+Cannot remove alias 'ansi/pc-term compatible with color'
+Name collision 'vt102' between
+	vt102|dec vt102
+and	vt102|dec vt102
+...now	dec vt102
+Cannot remove alias 'dec vt102'
+Name collision 'vt100' between
+	vt100|vt100-am|dec vt100 (w/advanced video)
+and	vt100|vt100-am|dec vt100 (w/advanced video)
+...now	vt100-am|dec vt100 (w/advanced video)
+...now	dec vt100 (w/advanced video)
+Cannot remove alias 'dec vt100 (w/advanced video)'
+Name collision 'vt220' between
+	vt220|vt200|dec vt220
+and	vt220|vt200|dec vt220
+...now	vt200|dec vt220
+...now	dec vt220
+Cannot remove alias 'dec vt220'
+Name collision 'vt52' between
+	vt52|dec vt52
+and	vt52|dec vt52
+...now	dec vt52
+Cannot remove alias 'dec vt52'
+Name collision 'vt100-nav' between
+	vt100-nav|vt100 without advanced video option
+and	vt100-nav|vt100 without advanced video option
+...now	vt100 without advanced video option
+Cannot remove alias 'vt100 without advanced video option'
+Name collision 'dumb' between
+	dumb|80-column dumb tty
+and	dumb|80-column dumb tty
+...now	80-column dumb tty
+Cannot remove alias '80-column dumb tty'
+Name collision 'linux' between
+	linux|linux console
+and	linux|linux console
+...now	linux console
+Cannot remove alias 'linux console'
+Will process root://eoscms//eos/cms//store/cmst3/group/hintt/LJets5TeV//MCWJetsToLNu2J_v1/MergedMiniEvents_7.root and save the results in /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_e/MCWJetsToLNu2J_v1_17.root
+Sample will be treated as MC=1
+Systematics will be run=1
+Corrections to be retrieved from era=/afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV
+Total normalization factor=1.42263e-10
+Read 3 b-tag efficiency expectations from /afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV/expTageff.root
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH2F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Analysing 77269 events isMC=1 trigger=HLT_HISinglePhoton40_Eta3p1ForPPRef_v1
+ [0/77269] done [1000/77269] done [2000/77269] done [3000/77269] done [4000/77269] done [5000/77269] done [6000/77269] done [7000/77269] done [8000/77269] done [9000/77269] done [10000/77269] done [11000/77269] done [12000/77269] done [13000/77269] done [14000/77269] done [15000/77269] done [16000/77269] done [17000/77269] done [18000/77269] done [19000/77269] done [20000/77269] done [21000/77269] done [22000/77269] done [23000/77269] done [24000/77269] done [25000/77269] done [26000/77269] done [27000/77269] done [28000/77269] done [29000/77269] done [30000/77269] done [31000/77269] done [32000/77269] done [33000/77269] done [34000/77269] done [35000/77269] done [36000/77269] done [37000/77269] done [38000/77269] done [39000/77269] done [40000/77269] done [41000/77269] done [42000/77269] done [43000/77269] done [44000/77269] done [45000/77269] done [46000/77269] done [47000/77269] done [48000/77269] done [49000/77269] done [50000/77269] done [51000/77269] done [52000/77269] done [53000/77269] done [54000/77269] done [55000/77269] done [56000/77269] done [57000/77269] done [58000/77269] done [59000/77269] done [60000/77269] done [61000/77269] done [62000/77269] done [63000/77269] done [64000/77269] done [65000/77269] done [66000/77269] done [67000/77269] done [68000/77269] done [69000/77269] done [70000/77269] done [71000/77269] done [72000/77269] done [73000/77269] done [74000/77269] done [75000/77269] done [76000/77269] done [77000/77269] donelaunching 1 tasks in 0 parallel jobs
+Running  Run5TeVAnalysis::Run5TeVAnalysis  on  root://eoscms//eos/cms//store/cmst3/group/hintt/LJets5TeV//MCWJetsToLNu2J_v1/MergedMiniEvents_7.root
+Output file /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_e/MCWJetsToLNu2J_v1_17.root
+Selection ch= 11  charge= 0  flavSplit= 0  systs= True
+Normalization applied from tag= MCWJetsToLNu2J_v1
+Corrections will be retrieved for era= /afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV
+analysisWrapper --era /afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV --normTag MCWJetsToLNu2J_v1 --in root://eoscms//eos/cms//store/cmst3/group/hintt/LJets5TeV//MCWJetsToLNu2J_v1/MergedMiniEvents_7.root --out /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_e/MCWJetsToLNu2J_v1_17.root --method Run5TeVAnalysis::Run5TeVAnalysis --charge 0 --channel 11 --flav 0  --runSysts
+
+Job finished at پير اگست 29 13:02:37 CEST 2016 on node 
+ under linux version Scientific Linux CERN SLC release 6.8 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:47 KSI2K hours (47 KSI2K seconds)
+                 This process corresponds to     : 0:03:03 HS06  hours (183 HS06  seconds)

@@ -1,0 +1,159 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/qhassan/771621474> on <b6a128afe2.cern.ch>
+
+Name collision 'ansi' between
+	ansi|ansi/pc-term compatible with color
+and	ansi|ansi/pc-term compatible with color
+...now	ansi/pc-term compatible with color
+Cannot remove alias 'ansi/pc-term compatible with color'
+Name collision 'vt102' between
+	vt102|dec vt102
+and	vt102|dec vt102
+...now	dec vt102
+Cannot remove alias 'dec vt102'
+Name collision 'vt100' between
+	vt100|vt100-am|dec vt100 (w/advanced video)
+and	vt100|vt100-am|dec vt100 (w/advanced video)
+...now	vt100-am|dec vt100 (w/advanced video)
+...now	dec vt100 (w/advanced video)
+Cannot remove alias 'dec vt100 (w/advanced video)'
+Name collision 'vt220' between
+	vt220|vt200|dec vt220
+and	vt220|vt200|dec vt220
+...now	vt200|dec vt220
+...now	dec vt220
+Cannot remove alias 'dec vt220'
+Name collision 'vt52' between
+	vt52|dec vt52
+and	vt52|dec vt52
+...now	dec vt52
+Cannot remove alias 'dec vt52'
+Name collision 'vt100-nav' between
+	vt100-nav|vt100 without advanced video option
+and	vt100-nav|vt100 without advanced video option
+...now	vt100 without advanced video option
+Cannot remove alias 'vt100 without advanced video option'
+Name collision 'dumb' between
+	dumb|80-column dumb tty
+and	dumb|80-column dumb tty
+...now	80-column dumb tty
+Cannot remove alias '80-column dumb tty'
+Name collision 'linux' between
+	linux|linux console
+and	linux|linux console
+...now	linux console
+Cannot remove alias 'linux console'
+Check normalization file genweights.root in era=/afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV and tag (HiForestAOD_471.root)
+Will run without any
+analysisWrapper options are:
+	 --in - input file
+	 --out - output file
+	 --channel - channel to analyze
+	 --charge  - charge selection to apply
+	 --flav    - flavour selection to apply
+	 --runSysts - activate running systematics
+	 --era      - era directory to use for corrections, uncertainties
+	 --normTag  - normalization tag
+	 --method   - method to run
+Will process root://eoscms//eos/cms//store/cmst3/group/hintt/psilva/PP5TeV/data/HighPtLowerPhotons/crab_HighPtLowerPhotons/160823_154451/0000/HiForestAOD_471.root and save the results in /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root
+Sample will be treated as MC=0
+Systematics will be run=0
+Corrections to be retrieved from era=/afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV
+Total normalization factor=1
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+Error in <TTree::SetBranchStatus>: unknown branch -> refpt
+Error in <TTree::SetBranchStatus>: unknown branch -> refparton_flavorForB
+Error in <TTree::SetBranchAddress>: unknown branch -> refpt
+Error in <TTree::SetBranchAddress>: unknown branch -> refparton_flavorForB
+Error in <TTree::SetBranchStatus>: unknown branch -> weight
+Error in <TTree::SetBranchStatus>: unknown branch -> ttbar_w
+Error in <TTree::SetBranchAddress>: unknown branch -> weight
+Error in <TTree::SetBranchAddress>: unknown branch -> ttbar_w
+Analysing 1076 events isMC=0 trigger=HLT_HISinglePhoton40_Eta3p1_v1
+ [0/1076] done [1000/1076] doneSysError in <TFile::TFile>: file /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root can not be opened (No such file or directory)
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+Error in <TFile::WriteTObject>: Directory /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root is not writable
+launching 1 tasks in 0 parallel jobs
+Running  Run5TeVAnalysis::Run5TeVAnalysis  on  root://eoscms//eos/cms//store/cmst3/group/hintt/psilva/PP5TeV/data/HighPtLowerPhotons/crab_HighPtLowerPhotons/160823_154451/0000/HiForestAOD_471.root
+Output file /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root
+Selection ch= 1100  charge= 0  flavSplit= 0  systs= False
+Normalization applied from tag= HiForestAOD_471.root
+Corrections will be retrieved for era= /afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV
+analysisWrapper --era /afs/cern.ch/work/q/qhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/data/era5TeV --normTag HiForestAOD_471.root --in root://eoscms//eos/cms//store/cmst3/group/hintt/psilva/PP5TeV/data/HighPtLowerPhotons/crab_HighPtLowerPhotons/160823_154451/0000/HiForestAOD_471.root --out /afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJets2015/TopAnalysis/analysis_enoniso/FilteredSingleEleHighPt_v3.root/HiForestAOD_471.root_0.root --method Run5TeVAnalysis::Run5TeVAnalysis --charge 0 --channel 1100 --flav 0 
+
+Job finished at پير اگست 29 13:15:43 CEST 2016 on node 
+ under linux version Scientific Linux CERN SLC release 6.8 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:10 KSI2K hours (10 KSI2K seconds)
+                 This process corresponds to     : 0:00:41 HS06  hours (41 HS06  seconds)
