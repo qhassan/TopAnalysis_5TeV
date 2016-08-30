@@ -23,7 +23,7 @@ outdir=/afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJ
 wwwdir=~/www/LJets-5TeV
 lumi=27.9
 data=/store/cmst3/group/hintt/mverweij/PP5TeV/data/SingleMuHighPt/crab_FilteredSingleMuHighPt_v3/160425_163333/merge/HiForest_0.root
-el_data=/store/cmst3/group/hintt/psilva/PP5TeV/data/HighPtLowerPhotons/crab_HighPtLowerPhotons/160823_154451/0000
+el_data=/store/cmst3/group/hintt/LJets5TeV//HighPtLowerPhotons
 
 RED='\e[31m'
 NC='\e[0m'
@@ -48,7 +48,6 @@ case $WHAT in
     MERGE )
 	echo -e "[ ${RED} Merging job output ${NC} ]"
 	a=(mu munoniso e enoniso)
-  a=(enoniso)
 	for i in ${a[@]}; do
     echo -e "[ ${RED} Merging ${i} ${NC} ]";
 	    ./scripts/mergeOutputs.py ${outdir}/analysis_${i};
@@ -56,7 +55,7 @@ case $WHAT in
     ;;
     BKG )
 	echo -e "[ ${RED} Running QCD estimation from non-isolated side-band ${NC} ]"
-	a=(mu munoniso)
+	a=(mu munoniso e enoniso)
         for i in ${a[@]}; do
 	    python scripts/plotter.py -i ${outdir}/analysis_${i}  -j data/era5TeV/samples.json      -l ${lumi} --silent;
 	done
@@ -64,12 +63,14 @@ case $WHAT in
 	    --iso    ${outdir}/analysis_mu/plots/plotter.root \
 	    --noniso ${outdir}/analysis_munoniso/plots/plotter.root \
 	    --out    ${outdir}/analysis_mu/ \
+	    --iso    ${outdir}/analysis_e/plots/plotter.root \
+	    --noniso ${outdir}/analysis_enoniso/plots/plotter.root \
+	    --out    ${outdir}/analysis_e/ \
 	    --sels  ,0b,1b,2b;
 	;;
     PLOT )
 	echo -e "[ ${RED} Running plotter ${NC} ]"
 	a=(mu munoniso e enoniso)
-  a=(enoniso)
 	for i in ${a[@]}; do
 	    #python scripts/plotter.py -i ${outdir}/analysis_${i}  -j data/era5TeV/Wsamples.json     -l ${lumi} --saveLog --noStack;	
 	    #mkdir ~/${outdir}/analysis_${i}/wplots;
