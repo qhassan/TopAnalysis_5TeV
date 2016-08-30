@@ -23,7 +23,7 @@ outdir=/afs/cern.ch/user/q/qhassan/workQhassan/5TeV/CMSSW_8_0_8_patch1/src/TopLJ
 wwwdir=~/www/LJets-5TeV
 lumi=27.9
 data=/store/cmst3/group/hintt/mverweij/PP5TeV/data/SingleMuHighPt/crab_FilteredSingleMuHighPt_v3/160425_163333/merge/HiForest_0.root
-el_data=/store/cmst3/group/hintt/LJets5TeV//HighPtLowerPhotons
+el_data=/store/cmst3/group/hintt/LJets5TeV/HighPtLowerPhotons
 
 RED='\e[31m'
 NC='\e[0m'
