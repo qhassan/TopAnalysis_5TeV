@@ -193,7 +193,7 @@ void Run5TeVAnalysis(TString inFileName,
     std::vector<float>* eledEtaAtVtx_p = 0;
     std::vector<float>* eledPhiAtVtx_p = 0;
     std::vector<float>* eleHoverE_p = 0;
-    std::vector<float>* eleEoverP_p = 0;
+    std::vector<float>* eleEoverPInv_p = 0;
     std::vector<float>* eleD0_p = 0;
     std::vector<float>* eleDz_p = 0;
     std::vector<float>* eleMissHits_p = 0;
@@ -211,7 +211,7 @@ void Run5TeVAnalysis(TString inFileName,
     lepTree_p->SetBranchStatus("eledEtaAtVtx", 1);
     lepTree_p->SetBranchStatus("eledPhiAtVtx", 1);
     lepTree_p->SetBranchStatus("eleHoverE", 1);
-    lepTree_p->SetBranchStatus("eleEoverP", 1);
+    lepTree_p->SetBranchStatus("eleEoverPInv", 1);
     lepTree_p->SetBranchStatus("eleD0", 1);
     lepTree_p->SetBranchStatus("eleDz", 1);
     lepTree_p->SetBranchStatus("eleMissHits", 1);
@@ -229,7 +229,7 @@ void Run5TeVAnalysis(TString inFileName,
     lepTree_p->SetBranchAddress("eledEtaAtVtx", &eledEtaAtVtx_p);
     lepTree_p->SetBranchAddress("eledPhiAtVtx", &eledPhiAtVtx_p);
     lepTree_p->SetBranchAddress("eleHoverE", &eleHoverE_p);
-    lepTree_p->SetBranchAddress("eleEoverP", &eleEoverP_p);
+    lepTree_p->SetBranchAddress("eleEoverPInv", &eleEoverPInv_p);
     lepTree_p->SetBranchAddress("eleD0", &eleD0_p);
     lepTree_p->SetBranchAddress("eleDz", &eleDz_p);
     lepTree_p->SetBranchAddress("eleMissHits", &eleMissHits_p);
@@ -388,46 +388,46 @@ void Run5TeVAnalysis(TString inFileName,
 	    bool passEta(fabs(eleEta_p->at(elIter)) < 2.5 && (fabs(eleEta_p->at(elIter)) < 1.4442 || fabs(eleEta_p->at(elIter)) > 1.5660));
 	    if(!passPt || !passEta) continue;
       bool passMediumId ((fabs(eleEta_p->at(elIter)) <= 1.4479
-      && eleSigmaIEtaIEta_p->at(elIter) < 0.0101
-      && eledEtaAtVtx_p->at(elIter) < 0.0103
-      && eledPhiAtVtx_p->at(elIter) < 0.0336
-      && eleHoverE_p->at(elIter) < 0.0876
-      && eleEoverP_p->at(elIter) < 0.0174
-      && eleD0_p->at(elIter) < 0.0118
-      && eleDz_p->at(elIter) < 0.373
+      && fabs(eleSigmaIEtaIEta_p->at(elIter)) < 0.0101
+      && fabs(eledEtaAtVtx_p->at(elIter)) < 0.0103
+      && fabs(eledPhiAtVtx_p->at(elIter)) < 0.0336
+      && fabs(eleHoverE_p->at(elIter)) < 0.0876
+      && fabs(eleEoverPInv_p->at(elIter)) < 0.0174
+      && fabs(eleD0_p->at(elIter)) < 0.0118
+      && fabs(eleDz_p->at(elIter)) < 0.373
       && eleMissHits_p->at(elIter) <= 2 
       && elepassConversionVeto_p->at(elIter))
       ||
       (fabs(eleEta_p->at(elIter)) < 2.5
-      && eleSigmaIEtaIEta_p->at(elIter) < 0.0283
-      && eledEtaAtVtx_p->at(elIter) < 0.00733
-      && eledPhiAtVtx_p->at(elIter) < 0.114
-      && eleHoverE_p->at(elIter) < 0.0678
-      && eleEoverP_p->at(elIter) < 0.0898
-      && eleD0_p->at(elIter) < 0.0739
-      && eleDz_p->at(elIter) < 0.602
+      && fabs(eleSigmaIEtaIEta_p->at(elIter)) < 0.0283
+      && fabs(eledEtaAtVtx_p->at(elIter)) < 0.00733
+      && fabs(eledPhiAtVtx_p->at(elIter)) < 0.114
+      && fabs(eleHoverE_p->at(elIter)) < 0.0678
+      && fabs(eleEoverPInv_p->at(elIter)) < 0.0898
+      && fabs(eleD0_p->at(elIter)) < 0.0739
+      && fabs(eleDz_p->at(elIter)) < 0.602
       && eleMissHits_p->at(elIter) <= 1 
       && elepassConversionVeto_p->at(elIter))
       );
       bool passVetoId ((fabs(eleEta_p->at(elIter)) <= 1.4479
-      && eleSigmaIEtaIEta_p->at(elIter) < 0.0114
-      && eledEtaAtVtx_p->at(elIter) < 0.0152
-      && eledPhiAtVtx_p->at(elIter) < 0.216
-      && eleHoverE_p->at(elIter) < 0.181
-      && eleEoverP_p->at(elIter) < 0.207
-      && eleD0_p->at(elIter) < 0.0564
-      && eleDz_p->at(elIter) < 0.472
+      && fabs(eleSigmaIEtaIEta_p->at(elIter)) < 0.0114
+      && fabs(eledEtaAtVtx_p->at(elIter)) < 0.0152
+      && fabs(eledPhiAtVtx_p->at(elIter)) < 0.216
+      && fabs(eleHoverE_p->at(elIter)) < 0.181
+      && fabs(eleEoverPInv_p->at(elIter)) < 0.207
+      && fabs(eleD0_p->at(elIter)) < 0.0564
+      && fabs(eleDz_p->at(elIter)) < 0.472
       && eleMissHits_p->at(elIter) <= 2 
       && elepassConversionVeto_p->at(elIter))
       ||
       (fabs(eleEta_p->at(elIter)) < 2.5
-      && eleSigmaIEtaIEta_p->at(elIter) < 0.0352
-      && eledEtaAtVtx_p->at(elIter) < 0.0113
-      && eledPhiAtVtx_p->at(elIter) < 0.237
-      && eleHoverE_p->at(elIter) < 0.116
-      && eleEoverP_p->at(elIter) < 0.174
-      && eleD0_p->at(elIter) < 0.222
-      && eleDz_p->at(elIter) < 0.921
+      && fabs(eleSigmaIEtaIEta_p->at(elIter)) < 0.0352
+      && fabs(eledEtaAtVtx_p->at(elIter)) < 0.0113
+      && fabs(eledPhiAtVtx_p->at(elIter)) < 0.237
+      && fabs(eleHoverE_p->at(elIter)) < 0.116
+      && fabs(eleEoverPInv_p->at(elIter)) < 0.174
+      && fabs(eleD0_p->at(elIter)) < 0.222
+      && fabs(eleDz_p->at(elIter)) < 0.921
       && eleMissHits_p->at(elIter) <= 3 
       && elepassConversionVeto_p->at(elIter))
       );
